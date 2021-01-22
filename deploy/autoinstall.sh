@@ -15,4 +15,4 @@ heroku container:push web --app $appname
 
 heroku container:release web --app $appname
 
-echo Everything's done, https://$appname.herokuapp.com GO! , passwd presets by default is archlinux.
+echo Everything's done, https://$appname.herokuapp.com GO! , passwd presets by default is alpinelinux.
