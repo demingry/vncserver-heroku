@@ -16,5 +16,7 @@ ENV USER=alpine \
     NOVNC_HOME=/home/alpine/noVNC 
 
 
+EXPOSE 6080
+
 
 CMD ["run_novnc"]
